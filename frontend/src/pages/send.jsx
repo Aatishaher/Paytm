@@ -1,8 +1,9 @@
 import React from 'react';
+import SendMoney from '../components/SendMoney';
 function Send() {
     return (
         <div>
-            <h1>Send</h1>
+            <SendMoney />
         </div>
     )
 }

@@ -19,9 +19,10 @@ const Signup = () => {
             password:password
         });
         if(res.status===200){
+            localStorage.setItem("token",res.data.token);
             alert("User created successfully");
         }
-        
+
     }
 
 
